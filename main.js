@@ -65,35 +65,52 @@ document.addEventListener('DOMContentLoaded', function () {
   // ---------------------------
   const sections = {
     about: `
-      <section id="about" class="content-section pt-32" style="background-color: var(--section-bg-about);">
-        <div class="container mx-auto px-6 py-16 reveal">
-          <h2 class="section-heading text-3xl md:text-4xl font-bold text-center mb-12">About</h2>
-          <div class="max-w-4xl mx-auto space-y-10">
-            <div class="reveal">
-              <h3 class="text-2xl font-bold nav-link-dark mb-3">Summary</h3>
-              <p class="text-slate-700 text-lg leading-relaxed">
-                Full-stack engineer experienced in building scalable web applications using <strong>Java, Python, React, Node.js, and Spring Boot</strong> across <strong>AWS/GCP</strong>.
-                Skilled in designing <strong>RESTful APIs</strong>, optimizing data models/queries, and integrating <strong>AI/LLM pipelines</strong> to enhance performance and user experience.
-              </p>
+  <section id="about" class="content-section pt-32" style="background-color: var(--section-bg-about);">
+    <div class="container mx-auto px-6 py-16 reveal">
+      <h2 class="section-heading text-3xl md:text-4xl font-bold text-center mb-12">About</h2>
+      <div class="max-w-4xl mx-auto space-y-10">
+        <div class="reveal">
+          <h3 class="text-2xl font-bold nav-link-dark mb-3">Summary</h3>
+          <p class="text-slate-700 text-lg leading-relaxed">
+            I’m a recent M.S. grad from <strong>Penn State</strong> and a full-stack/AI engineer who loves taking ambiguous ideas from zero to production.
+            I’ve built everything from <strong>multi-agent workflows</strong> to <strong>computer vision</strong> and <strong>time-series models</strong>, and I enjoy owning the entire lifecycle—
+            <strong>API design</strong>, <strong>data modeling</strong>, <strong>training/evaluation</strong>, <strong>deployment</strong>, and <strong>monitoring</strong>.
+            I’m especially interested in applied <strong>LLMs/RAG</strong>, where retrieval quality, guardrails, and orchestration translate directly into better user outcomes.
+          </p>
+          <p class="text-slate-700 text-lg leading-relaxed mt-4">
+            Outside of work, I track the AI landscape through <strong>papers, blogs, OSS</strong>, and release notes—and prototype to learn by doing.
+            I’m the person who gets excited about a new framework or benchmark trick and immediately tests it end-to-end.
+            That curiosity fuels my goal of shipping <strong>useful, reliable, and explainable</strong> AI features.
+          </p>
+          <p class="text-slate-700 text-lg leading-relaxed mt-4">
+            I’m <strong>currently working</strong> as a <strong>Full-Stack Software Developer</strong> (React, Node/Spring Boot, PostgreSQL, AWS), focusing on performance, developer experience, and measurable product impact.
+          </p>
+          <p class="text-slate-700 mt-4">
+            <strong>Interests:</strong> LLM systems &amp; RAG, prompt orchestration, evals &amp; guardrails, scalable APIs, data platforms, MLOps.
+          </p>
+        </div>
+
+        <div class="reveal" style="transition-delay:.1s">
+          <h3 class="text-2xl font-bold nav-link-dark mb-3">Education</h3>
+          <div class="space-y-4">
+            <div>
+              <p class="text-slate-900 font-semibold">Penn State University — M.S., Computer Science</p>
+              <p class="text-slate-500 text-sm">Aug 2023 – May 2025</p>
             </div>
-            <div class="reveal" style="transition-delay:.1s">
-              <h3 class="text-2xl font-bold nav-link-dark mb-3">Education</h3>
-              <div class="space-y-4">
-                <div>
-                  <p class="text-slate-900 font-semibold">Penn State University — M.S., Computer Science</p>
-                  <p class="text-slate-500 text-sm">Aug 2023 – May 2025</p>
-                </div>
-                <div>
-                  <p class="text-slate-900 font-semibold">Visvesvaraya Technological University — B.Tech, CSE</p>
-                  <p class="text-slate-500 text-sm">Jul 2018 – Aug 2022</p>
-                </div>
-              </div>
+            <div>
+              <p class="text-slate-900 font-semibold">Visvesvaraya Technological University — B.Tech, CSE</p>
+              <p class="text-slate-500 text-sm">Jul 2018 – Aug 2022</p>
             </div>
           </div>
         </div>
-        <footer class="text-center py-4 border-t border-neutral-200"><p class="text-sm text-slate-500 font-medium">© ${new Date().getFullYear()} Daanesh Potnuri</p></footer>
-      </section>
-    `,
+      </div>
+    </div>
+    <footer class="text-center py-4 border-t border-neutral-200">
+      <p class="text-sm text-slate-500 font-medium">© ${new Date().getFullYear()} Daanesh Potnuri</p>
+    </footer>
+  </section>
+`,
+
 
     skills: `
       <section id="skills" class="content-section pt-32" style="background-color: var(--section-bg-skills);">
@@ -128,7 +145,7 @@ document.addEventListener('DOMContentLoaded', function () {
           <h2 class="section-heading text-3xl md:text-4xl font-bold text-center mb-12">Experience</h2>
           <div class="max-w-4xl mx-auto space-y-8">
             <div class="card rounded-lg p-6 reveal">
-              <p class="text-xs text-slate-500">Jan 2025 – Oct 2025</p>
+              <p class="text-xs text-slate-500">Jan 2025 – Present</p>
               <h3 class="text-xl font-semibold nav-link-dark">Full-Stack Software Developer — World Disaster Center</h3>
               <ul class="list-disc pl-5 mt-3 text-slate-700 space-y-2">
                 <li>Built a responsive roster (React + Node/Express + PostgreSQL) with server-side pagination, Redis caching; cut data load by <strong>35%</strong> and admin updates by <strong>30%</strong>.</li>
