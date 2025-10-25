@@ -98,8 +98,8 @@ document.addEventListener('DOMContentLoaded', function () {
               <p class="text-slate-500 text-sm">Aug 2023 – May 2025</p>
             </div>
             <div>
-              <p class="text-slate-900 font-semibold">Visvesvaraya Technological University — B.Tech, CSE</p>
-              <p class="text-slate-500 text-sm">Jul 2018 – Aug 2022</p>
+              <p class="text-slate-900 font-semibold">Velagapudi Ramakrishna Siddhartha Engineering college — B.Tech, CSE</p>
+              <p class="text-slate-500 text-sm">Aug 2016 – Aug 2020</p>
             </div>
           </div>
         </div>
@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', function () {
           <h2 class="section-heading text-3xl md:text-4xl font-bold text-center mb-12">Experience</h2>
           <div class="max-w-4xl mx-auto space-y-8">
             <div class="card rounded-lg p-6 reveal">
-              <p class="text-xs text-slate-500">Jan 2025 – Present</p>
+              <p class="text-xs text-slate-500">Jul 2025 – Present</p>
               <h3 class="text-xl font-semibold nav-link-dark">Full-Stack Software Developer — World Disaster Center</h3>
               <ul class="list-disc pl-5 mt-3 text-slate-700 space-y-2">
                 <li>Built a responsive roster (React + Node/Express + PostgreSQL) with server-side pagination, Redis caching; cut data load by <strong>35%</strong> and admin updates by <strong>30%</strong>.</li>
@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', function () {
             </div>
 
             <div class="card rounded-lg p-6 reveal" style="transition-delay:.1s">
-              <p class="text-xs text-slate-500">Aug 2024 – May 2025</p>
+              <p class="text-xs text-slate-500">Aug 2023 – May 2025</p>
               <h3 class="text-xl font-semibold nav-link-dark">Graduate Research Assistant & Software Developer — Penn State University</h3>
               <ul class="list-disc pl-5 mt-3 text-slate-700 space-y-2">
                 <li>Architected a Python full-stack app (FastAPI, PostgreSQL/SQLAlchemy, Docker, JWT) with bulk CSV ingest, file uploads, and RBAC admin; reduced manual prep ~<strong>50%</strong>.</li>
@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', function () {
             </div>
 
             <div class="card rounded-lg p-6 reveal" style="transition-delay:.2s">
-              <p class="text-xs text-slate-500">Jul 2021 – Aug 2024</p>
+              <p class="text-xs text-slate-500">Aug 2020 – Aug 2023</p>
               <h3 class="text-xl font-semibold nav-link-dark">Software Engineer — Mphasis</h3>
               <ul class="list-disc pl-5 mt-3 text-slate-700 space-y-2">
                 <li>Built & optimized Java REST services (Spring Boot, Hibernate) on Oracle/PostgreSQL; improved ingestion and cut API latency by <strong>25%</strong>.</li>
