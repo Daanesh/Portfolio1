@@ -233,7 +233,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <div class="flex justify-center gap-8 text-3xl">
               <a href="mailto:daaneshpotnuri.3690@gmail.com" class="hover:scale-110 transition-transform" aria-label="Email"><i class="fas fa-envelope" style="color:#DB4437;"></i></a>
               <a href="https://github.com/Daanesh" target="_blank" class="hover:scale-110 transition-transform" aria-label="GitHub"><i class="fab fa-github" style="color:#181717;"></i></a>
-              <a href="https://www.linkedin.com/in/daanesh-potnuri" target="_blank" class="hover:scale-110 transition-transform" aria-label="LinkedIn"><i class="fab fa-linkedin" style="color:#0A66C2;"></i></a>
+              <a href="https://www.linkedin.com/in/daanesh-potnuri-377273152/" target="_blank" class="hover:scale-110 transition-transform" aria-label="LinkedIn"><i class="fab fa-linkedin" style="color:#0A66C2;"></i></a>
             </div>
           </div>
         </div>
