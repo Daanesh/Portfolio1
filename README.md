@@ -1,1 +1,1 @@
-# Daanesh Potnuri's Portifolio
+# Daanesh Potnuri's Portfolio
