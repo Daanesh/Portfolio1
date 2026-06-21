@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function () {
             That curiosity fuels my goal of shipping <strong>useful, reliable, and explainable</strong> AI features.
           </p>
           <p class="text-slate-700 text-lg leading-relaxed mt-4">
-            I’m <strong>currently working</strong> as a <strong>Full-Stack Software Developer</strong> (React, Node/Spring Boot, PostgreSQL, AWS), focusing on performance, developer experience, and measurable product impact.
+            I’m <strong>currently working</strong> as a <strong>Software Developer at Ras Lavrar LLC</strong>, focusing on legal-document automation, AI-powered extraction pipelines (Hugging Face, OCR), and building robust backends with Django, PySide6, and PostgreSQL.
           </p>
           <p class="text-slate-700 mt-4">
             <strong>Interests:</strong> LLM systems &amp; RAG, prompt orchestration, evals &amp; guardrails, scalable APIs, data platforms, MLOps.
@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function () {
               <h3 class="text-lg font-semibold nav-link-dark mb-2">Languages & Frontend</h3>
               <p class="text-slate-700">Java, TypeScript/JavaScript, Python, SQL • React, Next.js, HTML/CSS, Tailwind • SPA state mgmt, server-side pagination, form validation</p>
               <h3 class="text-lg font-semibold nav-link-dark mt-5 mb-2">Backend & APIs</h3>
-              <p class="text-slate-700">Spring Boot (REST, JPA/Hibernate), Node.js/Express, FastAPI • API design, JWT/RBAC, caching</p>
+              <p class="text-slate-700">Django, PySide6, Spring Boot (REST, JPA/Hibernate), Node.js/Express, FastAPI • API design, JWT/RBAC, caching</p>
               <h3 class="text-lg font-semibold nav-link-dark mt-5 mb-2">Data & Storage</h3>
               <p class="text-slate-700">PostgreSQL, Oracle, MySQL, MongoDB, Redis • schema design, indexing, query optimization • ORMs (Hibernate, SQLAlchemy)</p>
             </div>
@@ -131,8 +131,7 @@ document.addEventListener('DOMContentLoaded', function () {
               <h3 class="text-lg font-semibold nav-link-dark mt-5 mb-2">Quality & Observability</h3>
               <p class="text-slate-700">JUnit, Selenium, PyTest, Postman • performance/load testing, coverage, regression • Splunk, Prometheus/Grafana, Sentry, GA4</p>
               <h3 class="text-lg font-semibold nav-link-dark mt-5 mb-2">AI/ML & Security</h3>
-              <p class="text-slate-700">TensorFlow/Keras, scikit-learn, Pandas/NumPy • time-series (Transformer + BiLSTM) • ETL, evaluation (RMSE/MAE/MAPE/R²) • OAuth2/JWT, RBAC, rate limiting</p>
-            </div>
+              <p class="text-slate-700">Hugging Face, OCR, LangChain, RAG, TensorFlow/Keras • time-series (Transformer + BiLSTM) • ETL, evaluation (RMSE/MAE/MAPE/R²) • OAuth2/JWT, RBAC</p>
           </div>
         </div>
         <footer class="text-center py-4 border-t border-neutral-200"><p class="text-sm text-slate-500 font-medium">© ${new Date().getFullYear()} Daanesh Potnuri</p></footer>
@@ -140,44 +139,59 @@ document.addEventListener('DOMContentLoaded', function () {
     `,
 
     experience: `
-      <section id="experience" class="content-section pt-32" style="background-color: var(--section-bg-experience);">
-        <div class="container mx-auto px-6 py-16 reveal">
-          <h2 class="section-heading text-3xl md:text-4xl font-bold text-center mb-12">Experience</h2>
-          <div class="max-w-4xl mx-auto space-y-8">
-            <div class="card rounded-lg p-6 reveal">
-              <p class="text-xs text-slate-500">Jul 2025 – Present</p>
-              <h3 class="text-xl font-semibold nav-link-dark">Full-Stack Software Developer — World Disaster Center</h3>
-              <ul class="list-disc pl-5 mt-3 text-slate-700 space-y-2">
-                <li>Built a responsive roster (React + Node/Express + PostgreSQL) with server-side pagination, Redis caching; cut data load by <strong>35%</strong> and admin updates by <strong>30%</strong>.</li>
-                <li>Created a modular CMS with role-based access and draft→review→publish (JWT-secured APIs), increasing throughput by <strong>40%</strong> and enabling same-day publishing.</li>
-                <li>Refactored legacy endpoints to REST services with normalized schemas, indexing, and pooling; lowered median response time by <strong>25%</strong>, error rate by <strong>60%</strong>, and sustained <strong>99.9%</strong> uptime.</li>
-                <li>Integrated GA4 + custom events and KPI dashboard (page views, CTR, active users); insights improved session duration by <strong>+20%</strong> and solution CTR by <strong>+15%</strong>.</li>
-              </ul>
-            </div>
+<section id="experience" class="content-section pt-32" style="background-color: var(--section-bg-experience);">
+  <div class="container mx-auto px-6 py-16 reveal">
+    <h2 class="section-heading text-3xl md:text-4xl font-bold text-center mb-12">Experience</h2>
+    <div class="max-w-4xl mx-auto space-y-8">
 
-            <div class="card rounded-lg p-6 reveal" style="transition-delay:.1s">
-              <p class="text-xs text-slate-500">Aug 2023 – May 2025</p>
-              <h3 class="text-xl font-semibold nav-link-dark">Graduate Research Assistant & Software Developer — Penn State University</h3>
-              <ul class="list-disc pl-5 mt-3 text-slate-700 space-y-2">
-                <li>Architected a Python full-stack app (FastAPI, PostgreSQL/SQLAlchemy, Docker, JWT) with bulk CSV ingest, file uploads, and RBAC admin; reduced manual prep ~<strong>50%</strong>.</li>
-                <li>Spearheaded a React + Node/Express portal for coursework (server-side pagination, advanced filters, role views); reduced TA overhead ~<strong>30%</strong>.</li>
-                <li>Co-developed a Transformer + BiLSTM forecasting pipeline (NYC) in TensorFlow/Keras; achieved <strong>RMSE 34.1</strong>, <strong>MAE 23.7</strong>, <strong>MAPE 4.1%</strong>, <strong>R² 0.92</strong>.</li>
-              </ul>
-            </div>
+      <!-- NEW: Ras Lavrar LLC -->
+      <div class="card rounded-lg p-6 reveal">
+        <p class="text-xs text-slate-500">Apr 2026 – Present</p>
+        <h3 class="text-xl font-semibold nav-link-dark">Software Developer — Ras Lavrar LLC</h3>
+        <ul class="list-disc pl-5 mt-3 text-slate-700 space-y-2">
+          <li>Collaborated with legal operations to overhaul a production document workflow by implementing PA-specific OCR routing, affidavit intake, and ClientLookup tools, boosting file classification accuracy to 99% and decreasing manual routing time by 40%.</li>
+          <li>Transformed a legacy redaction architecture by coding event-driven Django webhooks to autonomously parse client zip uploads and validate PDFs, accelerating processing speed by 50% and eliminating 100% of manual extractions.</li>
+          <li>Devised an AI-powered judgment extraction process utilizing Hugging Face NLP models to capture and validate data from complex legal PDFs, systematizing JST ingestion, saving 15+ hours weekly, and increasing accuracy by 35%.</li>
+          <li>Constructed a Python/PySide6 and MySQL desktop application to reconcile database records against network workflows, resolving discrepancy detection and generating reports, which lowered daily reconciliation efforts by 60%.</li>
+        </ul>
+      </div>
 
-            <div class="card rounded-lg p-6 reveal" style="transition-delay:.2s">
-              <p class="text-xs text-slate-500">Aug 2020 – Aug 2023</p>
-              <h3 class="text-xl font-semibold nav-link-dark">Software Engineer — Mphasis</h3>
-              <ul class="list-disc pl-5 mt-3 text-slate-700 space-y-2">
-                <li>Built & optimized Java REST services (Spring Boot, Hibernate) on Oracle/PostgreSQL; improved ingestion and cut API latency by <strong>25%</strong>.</li>
-                <li>Containerized <strong>12</strong> microservices with Docker/Kubernetes and automated CI/CD via Jenkins/GitHub Actions/Argo CD; deployment failures −<strong>40%</strong>, env drift −<strong>50%</strong>.</li>
-                <li>Strengthened reliability with Splunk + Prometheus/Grafana observability; incident response −<strong>35%</strong>, uptime <strong>99.9%</strong>; automated <strong>200+</strong> tests (JUnit/Selenium).</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <footer class="text-center py-4 border-t border-neutral-200"><p class="text-sm text-slate-500 font-medium">© ${new Date().getFullYear()} Daanesh Potnuri</p></footer>
-      </section>
+      <!-- UPDATED: World Disaster Center -->
+      <div class="card rounded-lg p-6 reveal" style="transition-delay:.1s">
+        <p class="text-xs text-slate-500">Jul 2025 – Apr 2026</p>
+        <h3 class="text-xl font-semibold nav-link-dark">Software Developer — World Disaster Center</h3>
+        <ul class="list-disc pl-5 mt-3 text-slate-700 space-y-2">
+          <li>Engineered a React and Node.js/Express CMS and searchable roster with server-side pagination, PostgreSQL integration, and JWT-secured APIs, increasing publishing throughput by 40% and cutting admin update time by 30%.</li>
+          <li>Partnered with data stakeholders to optimize backend performance by migrating to normalized PostgreSQL REST services with advanced indexing and GA4 event analytics, improving median API response time by 25% and boosting user session duration by 20%.</li>
+        </ul>
+      </div>
+
+      <!-- UPDATED: Penn State -->
+      <div class="card rounded-lg p-6 reveal" style="transition-delay:.2s">
+        <p class="text-xs text-slate-500">Aug 2023 – May 2025</p>
+        <h3 class="text-xl font-semibold nav-link-dark">Graduate Research Assistant & Software Developer — Penn State University</h3>
+        <ul class="list-disc pl-5 mt-3 text-slate-700 space-y-2">
+          <li>Architected a Python full-stack data labeling app (FastAPI, PostgreSQL/SQLAlchemy, JWT, Docker), systematized high-volume CSV data ingest and uploads, and orchestrated a centralized admin dashboard, streamlining manual prep time by 50%.</li>
+          <li>Spearheaded a custom React + Node/Express portal with dynamic server-side pagination, advanced search filters, and secure role-based views; optimized administrative workflows to lower TA overhead by 30% and improve student turnaround.</li>
+          <li>Designed and operationalized a Transformer + BiLSTM forecasting model (NYC) in TensorFlow/Keras; benchmarked results (RMSE 34.1, MAE 23.7, MAPE 4.1%, R² 0.92) and systematized ETL, evaluation, and CI.</li>
+        </ul>
+      </div>
+
+      <!-- UPDATED: Mphasis -->
+      <div class="card rounded-lg p-6 reveal" style="transition-delay:.3s">
+        <p class="text-xs text-slate-500">Aug 2020 – Aug 2023</p>
+        <h3 class="text-xl font-semibold nav-link-dark">Associate Software Engineer — Mphasis</h3>
+        <ul class="list-disc pl-5 mt-3 text-slate-700 space-y-2">
+          <li>Upgraded Java/Spring Boot REST services and Hibernate configurations for the Fircosoft sanctions platform, boosting data ingestion from 8M to 12M records/day, scaling throughput to 700 req/s, and dropping API latency by 26%.</li>
+          <li>Coordinated with cross-functional QA and operations teams to orchestrate containerization for 12 core backend microservices using Docker/Kubernetes and continuous Jenkins CI/CD delivery pipelines, accelerating releases and slashing deployment failures by 40% and environment drift by 50%.</li>
+          <li>Fortified overall system reliability by programming 200+ JUnit/Selenium regression tests and deploying real-time Splunk/Prometheus observability monitoring, maintaining 99.9% uptime and accelerating incident response time by 35%.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  <footer class="text-center py-4 border-t border-neutral-200"><p class="text-sm text-slate-500 font-medium">© ${new Date().getFullYear()} Daanesh Potnuri</p></footer>
+</section>
     `,
 
     work: `
@@ -216,7 +230,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <div class="container mx-auto px-6 py-16 flex flex-col items-center reveal">
           <h2 class="section-heading text-3xl md:text-4xl font-bold text-center mb-4">Resume</h2>
           <p class="text-slate-600 text-center max-w-xl mb-6">Download a concise PDF of my resume with experience, projects, and skills.</p>
-          <a href="./Daanesh_ReResume.pdf" target="_blank" class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-5 py-3 rounded-lg shadow">
+          <a href="./Daanesh_ReReResume.pdf" target="_blank" class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-5 py-3 rounded-lg shadow">
             <i class="fa-solid fa-download"></i> Download Resume (PDF)
           </a>
         </div>
